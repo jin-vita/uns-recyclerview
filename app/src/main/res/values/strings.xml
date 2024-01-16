@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">UnsRecyclerview</string>
+
+    <string name="time">일시</string>
+    <string name="id">ID</string>
+    <string name="title">제목</string>
+    <string name="contents">내용</string>
 </resources>

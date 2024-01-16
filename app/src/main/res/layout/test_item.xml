@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/itemLayout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingVertical="5dp"
+              android:orientation="horizontal"
+              android:background="#172740">
+
+    <TextView
+            android:id="@+id/timeText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            tools:text="15:46"
+            android:textColor="#ffffff"/>
+
+    <TextView
+            android:id="@+id/idText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            tools:text="123"
+            android:textColor="#ffffff"/>
+
+    <TextView
+            android:id="@+id/titleText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            tools:text="가나"
+            android:textColor="#ffffff"/>
+
+    <TextView
+            android:id="@+id/contentsText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            tools:text="아프리카에 있다"
+            android:textColor="#5DA3E8"/>
+
+</LinearLayout>
