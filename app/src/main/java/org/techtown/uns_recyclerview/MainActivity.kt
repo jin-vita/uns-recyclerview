@@ -34,9 +34,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        AppData.debug(tag, "tag: $tag")
-        initRecyclerView()
 
+        initRecyclerView()
         setData()
     }
 
